@@ -12,7 +12,7 @@ It is made of following files:
 The main configuration is set at the top of the main.py file. You need to set the desired date range and the CPV code.
 
 <h3>Runing Program:</h3>
-Execute the ***main.py*** file from your terminal.
+Execute the main.py file from your terminal.
 
 <h3>Key Features:</h3>
 
