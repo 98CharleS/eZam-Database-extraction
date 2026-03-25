@@ -15,19 +15,24 @@ def appending_deals(database, id_n=1):
             return {
                 "id": x,
                 "ObjectId": deal.get("objectId"),
-                "tenderId": deal.get("tenderId"),
+                "clientType": deal.get("clientType"),
+                "TenderType": deal.get("TenderType"),
+                "noticeType": deal.get("noticeType"),
                 "noticeNumber": deal.get("noticeNumber"),
                 "bzpNumber": deal.get("bzpNumber"),
-                "orderObject": deal.get("orderObject"),
-                "orderType": deal.get("orderType"),
-                "cpvCode": deal.get("cpvCode"),
+                "isTenderAmountBelowEU": deal.get("isTenderAmountBelowEU"),
                 "publicationDate": deal.get("publicationDate"),
+                "orderObject": deal.get("orderObject"),
+                "cpvCode": deal.get("cpvCode"),
                 "submittingOffersDate": deal.get("submittingOffersDate"),
+                "procedureResult": deal.get("procedureResult"),
                 "organizationName": deal.get("organizationName"),
                 "organizationCity": deal.get("organizationCity"),
+                "organizationProvince": deal.get("organizationProvince"),
                 "organizationCountry": deal.get("organizationCountry"),
-                "isBelowEUThreshold": deal.get("isTenderAmountBelowEU"),
-                "Result": deal.get("procedureResult")
+                "organizationNationalId": deal.get("organizationNationalId"),
+                "organizationId": deal.get("organizationId"),
+                "tenderId": deal.get("tenderId"),
             }
 
         for deal in database:  # going through all tenders in list
