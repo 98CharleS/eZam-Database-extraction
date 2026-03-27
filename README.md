@@ -4,6 +4,7 @@
 ![Requests](https://img.shields.io/badge/library-requests-lightgrey.svg)
 ![Pandas](https://img.shields.io/badge/library-pandas-green.svg)
 ![Status](https://img.shields.io/badge/status-stable-brightgreen.svg)
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
 
 ## 📋 Table of Contents
 
@@ -15,6 +16,7 @@
 - [Input Validation](#-input-validation)
 - [Data Source](#️-data-source)
 - [Related Repositories](#-related-repositories)
+- [License](#-license)
 
 ---
 
@@ -140,3 +142,9 @@ Data is sourced from the **[eZamówienia REST API](https://ezamowienia.gov.pl)**
 | *(this repo)* | Stage 1 — API extraction to CSV |
 | [eZam-Database-formating](https://github.com/98CharleS/eZam-Database-formating) | Stage 2 — CSV → SQLite, cleaning & aggregations |
 | *(coming soon)* | Stage 3 — Analysis & Tableau dashboards |
+
+---
+
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE).
